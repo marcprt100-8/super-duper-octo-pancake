@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+  background-color: rgba(196, 34, 39, 0.8); /* Couleur avec une transparence de 0.8 */
+  padding: 15px;
+  display: flex;
+  width: 100%; /* Occupation de la largeur complète de la page */
+  justify-content: space-between; /* Pour espacer le logo et les éléments du menu à droite */
+  align-items: center; /* Pour centrer verticalement les éléments du menu */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 16px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+
+.navbar li {
+   display: inline;
+  margin-right: 20px;
+  font-size: 16px; /* Ajustez la taille du texte selon vos préférences */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px; /* Ajustez la taille du texte selon vos préférences */
+}
+.logo {
+  width: 50px; /* Ajustez la taille du logo selon vos besoins */
+  height: 50px;
+}
